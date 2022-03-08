@@ -37,3 +37,21 @@ code {
   background-attachment: fixed;
   z-index: -1;
 }
+
+.bloqueIzquierda{
+  float: left;
+  width: 50%;
+}
+
+
+.infoAulaCard{
+  float: right;
+  width: 50%;
+}
+.burbujaElemento{
+  background: black;
+}
+
+.rounded-pill{
+  color: white;
+}
