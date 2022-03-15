@@ -47,7 +47,7 @@ const Aulas = () => {
               </div>
             </div>
             <div>
-              <select className="form-select form-select-lg mt-4 mb-3 w-50" aria-label=".form-select-lg example" onChange={e => setSelectedAula(e.target.value)} defaultValue="0">
+              <select className="form-select form-select-lg desplegableAulas mt-4 mb-3 w-50" aria-label=".form-select-lg example" onChange={e => setSelectedAula(e.target.value)} defaultValue="0">
                 <option defaultValue="0" >Selector de aulas</option>
                 <option value="1">Aula 1</option>
                 <option value="2">Aula 2</option>
