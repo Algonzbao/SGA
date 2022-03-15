@@ -15,23 +15,24 @@ import {
 } from "react-router-dom";
 
 
-
 function App() {
     return (
         <Router>
             <div className="background">
                 <div className="container" >
                     <div className="btn-group "></div>
-                    <Link to="/" button class="btn"><i class="fa fa-home"></i>
+                    <Link to="/" button class="btn">
+                        <i class="fa fa-home"></i>
                     </Link>
-                    <Link to="/Aula" className="btn btn-dark">
+                    <Link to="/aula" className="btn btn-dark">
                         Ver Aulas
                     </Link>
+                    
                     <Link to="/Reservar" className="btn btn-dark">
                         Ver Reservas
                     </Link>
                     <Switch>
-                        <Route path="/reserva">
+                        <Route path="/Reservar">
                             <Reservar />
                         </Route>
                         <Route path="/aula">

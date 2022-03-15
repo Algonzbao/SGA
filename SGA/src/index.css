@@ -38,20 +38,45 @@ code {
   z-index: -1;
 }
 
-.bloqueIzquierda{
-  float: left;
-  width: 50%;
-}
 
-
-.infoAulaCard{
-  float: right;
-  width: 50%;
-}
 .burbujaElemento{
   background: black;
 }
 
 .rounded-pill{
   color: white;
+}
+
+.infoAulaCard{
+  margin-right: 7%;
+  width: 1000px;
+  height: 525px;
+  background-color: rgba(202, 209, 204, 0.2);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.elementosAulaIz{
+  width: 120%;
+}
+
+.elementosAulaDr{
+  margin-left: 2%!important;
+  width: 120%;
+}
+.elementoAula{
+  width: 100%;
+}
+
+.badgeaula{
+  background-color: #36453b;
+}
+
+.botonEditar{
+  margin-top: 50%;
+  margin-left: 45%!important;
+}
+
+.editarboton{
+  background-color: #36453b;
 }
