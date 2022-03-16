@@ -24,11 +24,11 @@ function App() {
                     <Link to="/" button class="btn">
                         <i class="fa fa-home"></i>
                     </Link>
-                    <Link to="/aula" className="btn btn-dark">
+                    <Link to="/aula" className="btn btn-dark botonAulas">
                         Ver Aulas
                     </Link>
                     
-                    <Link to="/Reservar" className="btn btn-dark">
+                    <Link to="/Reservar" className="btn btn-dark ms-2">
                         Ver Reservas
                     </Link>
                     <Switch>
